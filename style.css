@@ -60,6 +60,10 @@ article {
     padding-top: 12px;
 }
 
+.rating p {
+    margin: 0;
+}
+
 .ingredients {
     display:flex;
     flex-direction: column;
@@ -91,5 +95,8 @@ table {
     .overview {
         flex-direction: column;
         gap: 6px;
+    }
+    .rating p {
+        margin: auto;
     }
   }
